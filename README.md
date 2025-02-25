@@ -1,4 +1,4 @@
-README: <b>Рortuguês</b> | [English](README_en.md)
+<b>Рortuguês</b> | [English](README_en.md)
 
 # descrito
 **descrito** é uma extensão de navegador que automaticamente gera legendas para imagens contidas em páginas da *web*.
@@ -51,6 +51,6 @@ Hugging Face Space: [figdavi/descrito](https://huggingface.co/spaces/figdavi/des
 ## Licença
 Este projeto é licenciado sob a Apache License 2.0, disponível no arquivo [LICENSE](LICENSE).
 
-O projeto inclui código do [gradio](https://www.npmjs.com/package/@gradio/client?activeTab=code), especificamente o arquivo `index.min.js`, originally originalmente licenciado sob Apache 2.0.  
+O projeto inclui código do [gradio](https://www.npmjs.com/package/@gradio/client?activeTab=code), especificamente o arquivo `index.min.js`, originalmente licenciado sob Apache 2.0.  
 Pequenas modificações (como a remoção de *exports*) foram feitas.  
 Veja [LICENSE](LICENSE) para mais detalhes.

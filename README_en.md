@@ -1,4 +1,4 @@
-README: [Português](README.md) | <b>English</b>
+[Português](README.md) | <b>English</b>
 
 # descrito
 **descrito** is browser extension that automatically generate captions for images contained in web pages.
