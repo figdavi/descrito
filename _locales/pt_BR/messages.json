@@ -1,0 +1,59 @@
+{
+    "extensionDesc": {
+        "message": "Uma extensão que utiliza IA para geração de legendas de imagens.",
+        "description": "Descrição da extensão."
+    },
+    "enableExtensionLegend": {
+        "message": "Ativar extensão",
+        "description": "Legenda para a opção de ativar a extensão."
+    },
+    "enableExtensionLabel": {
+        "message": "Ativar geração de legendas",
+        "description": "Rótulo para a caixa de seleção de ativação da extensão."
+    },
+    "languageLegend": {
+        "message": "Selecionar idioma das legendas",
+        "description": "Legenda para o campo de seleção de idioma."
+    },
+    "languagePtBR": {
+        "message": "Português",
+        "description": "Opção de idioma português para geração de legendas."
+    },
+    "languageEn": {
+        "message": "Inglês",
+        "description": "Opção de idioma inglês para geração de legendas."
+    },
+    "genModeLegend": {
+        "message": "Escolha como as legendas devem ser geradas",
+        "description": "Legenda para a seleção do modo de geração de legendas."
+    },
+    "altCaptionLabel": {
+        "message": "Legenda não visível (alt)",
+        "description": "Rótulo para a opção de legenda alt."
+    },
+    "figcaptionCaptionLabel": {
+        "message": "Legenda visível (figcaption)",
+        "description": "Rótulo para a opção de legenda figcaption."
+    },
+    "genConditionLegend": {
+        "message": "Escolha quando gerar a legenda",
+        "description": "Legenda para a seleção da condição de geração de legendas."
+    },
+    "unlabeledImagesLabel": {
+        "message": "Apenas imagens sem legenda",
+        "description": "Rótulo para a opção de gerar legendas apenas para imagens sem legenda."
+    },
+    "unlabeledImagesDesc": {
+        "message": "Gerará uma legenda apenas se a imagem não possuir uma.",
+        "description": "Descrição da opção 'Apenas imagens sem legenda'."
+    },
+    "allImagesLabel": {
+        "message": "Todas as imagens",
+        "description": "Rótulo para a opção de gerar legendas para todas as imagens."
+    },
+    "allImagesDesc": {
+        "message": "Sempre gerará uma legenda. Se a imagem já possuir uma, ela será substituída.",
+        "description": "Descrição da opção 'Todas as imagens'."
+    }
+
+}

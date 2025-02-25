@@ -1,0 +1,19 @@
+{
+  "name": "descrito",
+  "description": "__MSG_extensionDesc__",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/logo-white.png"
+  },
+  "default_locale": "pt_BR",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": ["activeTab", "storage"],
+  "homepage_url": "https://github.com/figdavi/descrito"
+}

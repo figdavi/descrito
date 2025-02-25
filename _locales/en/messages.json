@@ -1,0 +1,63 @@
+{
+    "extensionDesc": {
+        "message": "An AI-powered browser extension for image caption generation.",
+        "description": "Extension's descriptions."
+    },
+    "logo": {
+        "message": "descrito's logo",
+        "description": "descrito's logo"
+    },
+    "enableExtensionLegend": {
+        "message": "Enable extension",
+        "description": "Legend for the enable extension checkbox."
+    },
+    "enableExtensionLabel": {
+        "message": "Enable caption generation",
+        "description": "Label for the enable extension checkbox."
+    },
+    "languageLegend": {
+        "message": "Select caption language",
+        "description": "Legend for the language selection fieldset."
+    },
+    "languagePtBR": {
+        "message": "Portuguese",
+        "description": "Portuguese option for caption generation."
+    },
+    "languageEn": {
+        "message": "English",
+        "description": "English option for caption generation."
+    },
+    "genModeLegend": {
+        "message": "Choose how captions should be generated",
+        "description": "Legend for caption generation mode selection."
+    },
+    "altCaptionLabel": {
+        "message": "Not visible caption (alt)",
+        "description": "Label for alt caption radio option."
+    },
+    "figcaptionCaptionLabel": {
+        "message": "Visible caption (figcaption)",
+        "description": "Label for figcaption caption radio option."
+    },
+    "genConditionLegend": {
+        "message": "Choose when to generate caption",
+        "description": "Legend for caption generation condition selection."
+    },
+    "unlabeledImagesLabel": {
+        "message": "Only unlabeled images",
+        "description": "Label for the radio button that only generates captions for unlabeled images."
+    },
+    "unlabeledImagesDesc": {
+        "message": "Will only generate a caption if the image does not already contain one.",
+        "description": "Description for the 'Only unlabeled images' option."
+    },
+    "allImagesLabel": {
+        "message": "All images",
+        "description": "Label for the radio button that generates captions for all images."
+    },
+    "allImagesDesc": {
+        "message": "Will always generate a caption. If the image already has a caption it will be overwritten.",
+        "description": "Description for the 'All images' option."
+    }
+
+}

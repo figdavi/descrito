@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="scripts/popup.js" type="module" defer></script>
+        <link rel="stylesheet" href="styles/popup.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="images/logo-black.png" width="50px" alt="Logo do descrito" data-i18n="logo">
+            <h1>descrito</h1>
+        </header>
+
+        <fieldset class="checkbox">
+            <legend data-i18n="enableExtensionLegend">Ativar extensão</legend>
+            <div class="option">
+                <input id="enable-extension" data-i18n="enableExtension" type="checkbox" checked>
+                <label data-i18n="enableExtensionLabel" for="enable-extension">Ativar geração de legendas</label>
+            </div>
+        </fieldset>
+        
+
+        <fieldset disabled>
+            <legend data-i18n="languageLegend">Selecionar idioma das legendas</legend>
+            <select id="language" name="language-option">
+                <option data-i18n="languagePtBR" value="pt_BR">Português</option>
+                <option data-i18n="languageEn" value="en" selected>Inglês</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="radio" role="radiogroup">
+            <legend data-i18n="genModeLegend">Escolha como as legendas devem ser geradas</legend>
+
+            <div class="option">
+                <input id="gen-alt" value="alt" type="radio" name="gen-mode-option" checked>
+                <label for="gen-alt" data-i18n="altCaptionLabel">Legenda não visível (alt)</label>
+            </div>
+
+            <div class="option">
+                <input id="gen-figcaption" value="figcaption" name="gen-mode-option" type="radio">
+                <label for="gen-figcaption" data-i18n="figcaptionCaptionLabel">Legenda visível (figcaption)</label>
+            </div>
+        </fieldset>
+
+        <fieldset class="radio" role="radiogroup">
+            <legend data-i18n="genConditionLegend">Escolha quando gerar a legenda</legend>
+        
+            <div class="option">
+                <input id="unlabeled-images" value="unlabeled-images" type="radio" name="gen-condition-option" checked>
+                <label for="unlabeled-images">
+                    <span data-i18n="unlabeledImagesLabel">Apenas imagens sem legenda</span>
+                    <span class="desc" data-i18n="unlabeledImagesDesc">Gerará uma legenda apenas se a imagem não possuir uma.</span>
+                </label>
+                
+            </div>
+        
+            <div class="option">
+                <input id="all-images" value="all-images" type="radio" name="gen-condition-option">
+                <label for="all-images">
+                    <span data-i18n="allImagesLabel">Todas as imagens</span>
+                    <span class="desc" data-i18n="allImagesDesc">Sempre gerará uma legenda. Se a imagem já possuir uma, ela será substituída.</span>
+                </label>
+            </div>
+        </fieldset>
+    </body>
+</html>
