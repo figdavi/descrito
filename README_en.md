@@ -51,6 +51,6 @@ Hugging Face Space: [figdavi/descrito](https://huggingface.co/spaces/figdavi/des
 ## License
 This project is licensed under the Apache License 2.0 found in the [LICENSE](LICENSE) file.
 
-It includes code from [gradio](https://www.npmjs.com/package/@gradio/client?activeTab=code), specifically `index.min.js` file, originally licensed under Apache 2.0.  
+It includes code from [Gradio](https://www.npmjs.com/package/@gradio/client?activeTab=code), specifically `index.min.js` file, originally licensed under Apache 2.0.  
 Minor modifications (such as removing export statements) were made to allow bundling.  
 See [LICENSE](LICENSE) for details.
