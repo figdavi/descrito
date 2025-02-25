@@ -8,7 +8,7 @@ README: [Português](README.md) | <b>English</b>
 ### Configuration
 #### Popup
 <p align="center">
-    <img src="readme_images/descrito-popup.png" height="400px" alt="The popup interface for setting caption preferences.">
+    <img src="readme_images/popup-en.png" height="400px" alt="The popup interface for setting caption preferences.">
 </p>
 
 1. Captions are added either via the `alt` attribute or a `figcaption` tag.

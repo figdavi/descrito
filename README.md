@@ -8,7 +8,7 @@ README: <b>Рortuguês</b> | [English](README_en.md)
 ### Configuração
 #### *Popup*
 <p align="center">
-    <img src="readme_images/descrito-popup.png" height="400px" alt="A interface popup para definir preferências de legenda.">
+    <img src="readme_images/popup-pt_BR.png" height="400px" alt="A interface popup para definir preferências de legenda.">
 </p>
 
 1. As legendas são adicionadas via atributo `alt` ou tag `figcaption`.
