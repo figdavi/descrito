@@ -1,4 +1,6 @@
-<a style="font-size: 1.3rem" href="README.md">Português</a> | <b style="font-size: 1.3rem">English</b>
+<p align="center">
+    <a style="font-size: 1.3rem" href="README.md">Português</a> | <b style="font-size: 1.3rem">English</b>
+</p>
 
 # descrito
 **descrito** is browser extension that automatically generate captions for images contained in web pages.
