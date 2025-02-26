@@ -1,4 +1,4 @@
-<b>Рortuguês</b> | [English](README_en.md)
+<b style="font-size: 1.3rem">Português</b> | <a style="font-size: 1.3rem" href="README-en.md">English</a>
 
 # descrito
 **descrito** é uma extensão de navegador que automaticamente gera legendas para imagens contidas em páginas da *web*.
