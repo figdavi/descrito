@@ -48,7 +48,7 @@ Hugging Face Space: [figdavi/descrito](https://huggingface.co/spaces/figdavi/des
 1. Clone o repositório
 2. Acesse [chrome://extensions/](chrome://extensions/)
 3. Ative o "Modo desenvolvedor" no canto superior direito
-4. Clique no botão "Carregar sem compactação" e selection a pasta `descrito/`
+4. Clique no botão "Carregar sem compactação" e selecione a pasta `descrito/`
 
 ## Licença
 Este projeto é licenciado sob a Apache License 2.0, disponível no arquivo [LICENSE](LICENSE).
