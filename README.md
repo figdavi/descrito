@@ -39,10 +39,10 @@ Hugging Face Space: [figdavi/descrito](https://huggingface.co/spaces/figdavi/des
 
 ## Instalação (Chrome)
 ### Usuário
-1. Baixe o arquivo: [descrito.crx](descrito.crx)
-1. Acesse [chrome://extensions/](chrome://extensions/)
-2. Arraste e solte o arquivo baixado
-3. Selecione "Adicionar extensão"
+1. Baixe o arquivo `descrito.crx` no [último lançamento](https://github.com/figdavi/descrito/releases/latest)
+2. Acesse [chrome://extensions/](chrome://extensions/)
+3. Arraste e solte o arquivo baixado
+4. Selecione "Adicionar extensão"
 
 ### Modo desenvolvedor
 1. Clone o repositório
